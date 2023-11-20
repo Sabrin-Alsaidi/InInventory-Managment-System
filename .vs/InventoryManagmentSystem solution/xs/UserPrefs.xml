@@ -1,21 +1,19 @@
 ﻿<Properties StartupConfiguration="{93753DC8-6B5B-4042-9163-70A2CB3C9F82}|Default">
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.InventoryManagmentSystem PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="InventoryManagmentSystem/Program.cs">
     <Files>
-      <File FileName="InventoryManagmentSystem/Program.cs" Line="54" Column="26" />
+      <File FileName="InventoryManagmentSystem/Program.cs" Line="148" Column="51" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="InventoryManagmentSystem solution" expanded="True" />
-        </State>
+        <State name="__root__" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.InventoryManagmentSystem PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
