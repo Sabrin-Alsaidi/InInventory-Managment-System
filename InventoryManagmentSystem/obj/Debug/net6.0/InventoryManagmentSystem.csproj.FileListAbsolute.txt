@@ -1,0 +1,15 @@
+/Users/sultana/Documents/Makeen/InventoryManagmentSystem solution/InventoryManagmentSystem/bin/Debug/net6.0/InventoryManagmentSystem
+/Users/sultana/Documents/Makeen/InventoryManagmentSystem solution/InventoryManagmentSystem/bin/Debug/net6.0/InventoryManagmentSystem.deps.json
+/Users/sultana/Documents/Makeen/InventoryManagmentSystem solution/InventoryManagmentSystem/bin/Debug/net6.0/InventoryManagmentSystem.runtimeconfig.json
+/Users/sultana/Documents/Makeen/InventoryManagmentSystem solution/InventoryManagmentSystem/bin/Debug/net6.0/InventoryManagmentSystem.dll
+/Users/sultana/Documents/Makeen/InventoryManagmentSystem solution/InventoryManagmentSystem/bin/Debug/net6.0/InventoryManagmentSystem.pdb
+/Users/sultana/Documents/Makeen/InventoryManagmentSystem solution/InventoryManagmentSystem/obj/Debug/net6.0/InventoryManagmentSystem.csproj.AssemblyReference.cache
+/Users/sultana/Documents/Makeen/InventoryManagmentSystem solution/InventoryManagmentSystem/obj/Debug/net6.0/InventoryManagmentSystem.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sultana/Documents/Makeen/InventoryManagmentSystem solution/InventoryManagmentSystem/obj/Debug/net6.0/InventoryManagmentSystem.AssemblyInfoInputs.cache
+/Users/sultana/Documents/Makeen/InventoryManagmentSystem solution/InventoryManagmentSystem/obj/Debug/net6.0/InventoryManagmentSystem.AssemblyInfo.cs
+/Users/sultana/Documents/Makeen/InventoryManagmentSystem solution/InventoryManagmentSystem/obj/Debug/net6.0/InventoryManagmentSystem.csproj.CoreCompileInputs.cache
+/Users/sultana/Documents/Makeen/InventoryManagmentSystem solution/InventoryManagmentSystem/obj/Debug/net6.0/InventoryManagmentSystem.dll
+/Users/sultana/Documents/Makeen/InventoryManagmentSystem solution/InventoryManagmentSystem/obj/Debug/net6.0/refint/InventoryManagmentSystem.dll
+/Users/sultana/Documents/Makeen/InventoryManagmentSystem solution/InventoryManagmentSystem/obj/Debug/net6.0/InventoryManagmentSystem.pdb
+/Users/sultana/Documents/Makeen/InventoryManagmentSystem solution/InventoryManagmentSystem/obj/Debug/net6.0/InventoryManagmentSystem.genruntimeconfig.cache
+/Users/sultana/Documents/Makeen/InventoryManagmentSystem solution/InventoryManagmentSystem/obj/Debug/net6.0/ref/InventoryManagmentSystem.dll
