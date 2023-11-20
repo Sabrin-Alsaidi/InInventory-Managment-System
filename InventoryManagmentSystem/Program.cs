@@ -22,20 +22,17 @@ class Program
         List<int> sales = new List<int>();
 
         #region Add product 
-        //add produect name value
-        Console.WriteLine("Enter new product");
-        string newProduct = Console.ReadLine();
-        product.Add(newProduct);
         
-        //add price value
-        Console.WriteLine("Enter new price");
-       double Pprice = Convert.ToDouble(Console.ReadLine());
-        price.Add(Pprice);
+        
+       // //add price value
+       // Console.WriteLine("Enter new price");
+       //double Pprice = Convert.ToDouble(Console.ReadLine());
+       // price.Add(Pprice);
        
-        //add quantity value 
-        Console.WriteLine("Enter new quantity");
-        int quan = Convert.ToInt32(Console.ReadLine());
-        quantity.Add(quan);
+       // //add quantity value 
+       // Console.WriteLine("Enter new quantity");
+       // int quan = Convert.ToInt32(Console.ReadLine());
+       // quantity.Add(quan);
         #endregion
 
         #region display product 
@@ -65,28 +62,8 @@ class Program
 
         }
 
-        //Console.WriteLine("update Q");
-        //int newQ = Convert.ToInt32(Console.ReadLine());
-        //int add = quan + newQ;
-        //updateProduct(product, ref newQ);
-        //Console.WriteLine("success " + add);
-
-
 
         #endregion
-
-
-
-
-
-        
-
-
-        /* addProduct(product, newProduct);
-       for (int i = 0; i <= product.Length; i++)
-       {
-           Console.WriteLine(product[i]);
-       }
 
        //check username & password
          if (username == "admin" && password == "adminpass")
@@ -109,68 +86,97 @@ class Program
                //To add product
                Console.WriteLine("Enter product name: ");
                string ProductName = Console.ReadLine();
-               for(int x = 0; x <= product.Length; x++)
+               for(int x = 0; x <= product.Count; x++)
                {
                    product[x] = ProductName;
                    Console.WriteLine(product[x]);
 
                }
-               product[product.Length + 1] = ProductName;
+               product[product.Count + 1] = ProductName;
                Console.WriteLine(product);
 
                //  addProduct(productName);
 
-               /* switch (optionNum)
+                switch (optionNum)
                 {
-                    case 1:
-                        //To add product
-                        Console.WriteLine("Enter product name: ");
-                        string ProductName = Console.ReadLine();
-                        product[product.Length+1]= ProductName;
-                        Console.WriteLine(product);
+                case 1:
+
+                    //To add product
+                    Console.WriteLine("Enter new product");
+                    string newProduct = Console.ReadLine();
+                    product.Add(newProduct);
+                    for (int x = 0; x <= product.Count; x++)
+                    {
+                        product[x] = newProduct;
+                        Console.WriteLine(product[x]);
+
+                    }
+                    product[product.Count + 1] = newProduct;
+                    Console.WriteLine(product);
+                    //add price value
+                    Console.WriteLine("Enter new price");
+                    double Pprice = Convert.ToDouble(Console.ReadLine());
+                    price.Add(Pprice);
+
+                    //add quantity value 
+                    Console.WriteLine("Enter new quantity");
+                    int quan = Convert.ToInt32(Console.ReadLine());
+                    quantity.Add(quan);
+                    break;
+                case 2:
+                    //To update product
+
+                    Console.WriteLine("update Q");
+                    int newQ = Convert.ToInt32(Console.ReadLine());
+                    int add = quan + newQ;
+                    updateProduct(product, ref newQ);
+                    Console.WriteLine("success " + add);
 
 
 
-                        Console.WriteLine("Enter product price: ");
-                        double ProductPrice = Convert.ToDouble(Console.ReadLine());
-                        Console.WriteLine("Enter initial quantity: ");
-                        int Pquantity = Convert.ToInt16(Console.ReadLine());
-                        Console.WriteLine("Product added successfully!");
-                        break;
-                  case 2:
-                        //To update product
+                    break;
+                case 3:
+                    //To display product
+                    Console.WriteLine("Product List: ");
+                    productList(product, price, quantity);
 
+                    break;
+                case 4:
+                    //To record sales
+                    for (int i = 0; i < sales.Count; i++)
+                    {
+                        Console.WriteLine(sales[i]);
+                    }
 
-                        break;
-                    case 3:
-                        //To display product
+                    break;
+                case 5:
+                    //To product report
+                    Console.WriteLine("Product List: ");
+                    productList(product, price, quantity);
 
+                    break;
+                case 6:
+                    //To sale report
+                    int sale = Convert.ToInt32(Console.ReadLine());
+                    Sale(sale);
+                    Console.WriteLine("reven");
+                    for (int i = 0; i < sales.Count; i++)
+                    {
+                        double rev = revenue(sales[i], price[i]);
+                        Console.WriteLine("revenu = " + rev);
+                    }
+                    Console.WriteLine("end reven");
 
-                        break;
-                    case 4:
-                        //To record sales
+                    break;
+                case 7:
+                    //To Exit the system
+                    Console.WriteLine("Thank you for using the Inventory Management System, admin!");
 
-
-                        break;
-                    case 5:
-                        //To product report
-
-
-                        break;
-                    case 6:
-                        //To sale report
-
-
-                        break;
-                    case 7:
-                        //To Exit the system
-                        Console.WriteLine("Thank you for using the Inventory Management System, admin!");
-
-                        break;
-                    default:
-                        Console.WriteLine("Invalid choice. Please select a valid operation.");
-                        break;
-                }
+                    break;
+                default:
+                    Console.WriteLine("Invalid choice. Please select a valid operation.");
+                    break;
+            }
 
 
            }
@@ -178,50 +184,9 @@ class Program
            {
                //if authentication false
                Console.WriteLine("Username or Password not valid!");
-           }*/
+           }
 
     }
-    //-----------------------------------------------------------------------
-    //static string[] addProduct(string[] pname , string product)
-    //{
-    //    Array.Resize(ref pname, pname.Length + 1);
-    //    pname[pname.Length - 1] = product;
-    //    //int i = 0;
-    //    //while (i <= pname.Length - 1)
-    //    //    i++;
-    //    return pname;
-
-    //}
-    //static void add(string[] pname, double[] price,int[] quantity)
-    //{
-    //    //Console.WriteLine("Enter product name: ");
-    //    //Console.WriteLine("Enter product price: ");
-    //    //Console.WriteLine("Enter initial quantity: ");
-    //    pname = new string[10];
-    //    price = new double[10];
-    //    quantity = new int[10];
-
-    //}
-
-    #region update product function
-
-    //static void updateProduct( List <string> product ,ref int quan)
-    //{
-    //    //List<int> quantity;
-    //    string pro=" ";
-    //    int newQ, Q=0;
-    //    for (int i = 0; i < product.Count; i++)
-    //    {
-    //        if (product[i] == pro)
-    //        {
-    //            newQ = Q;
-    //            //quantity.Insert(quantity[i], newQ);
-    //        }
-                
-    //    }
-
-    //}
-    #endregion
 
     #region display product function
     static void productList(List<string>product,List<double>price, List<int> quantity) 
@@ -232,6 +197,23 @@ class Program
         }
     }
     #endregion
+
+    static int Sale(int sale, int qnt = 0)
+    {
+
+        if (sale == qnt)
+
+            qnt = qnt - sale;
+        Console.WriteLine($" total sales = {sale}");
+        return qnt;
+
+    }
+
+    static double revenue(int sale, double price)
+    {
+        double result = (double)sale * price;
+        return result;
+    }
 
 }
 

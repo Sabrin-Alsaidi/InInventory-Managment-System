@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/Users/sabrinal-saidi/.nuget/packages/": {}
+    "/Users/sultana/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sabrinal-saidi/Desktop/InventoryManagmentSystem solution/InventoryManagmentSystem/InventoryManagmentSystem.csproj",
+      "projectUniqueName": "/Users/sultana/Downloads/InInventory-Managment-System-Sabrin/InInventory-Managment-System/InventoryManagmentSystem/InventoryManagmentSystem.csproj",
       "projectName": "InventoryManagmentSystem",
-      "projectPath": "/Users/sabrinal-saidi/Desktop/InventoryManagmentSystem solution/InventoryManagmentSystem/InventoryManagmentSystem.csproj",
-      "packagesPath": "/Users/sabrinal-saidi/.nuget/packages/",
-      "outputPath": "/Users/sabrinal-saidi/Desktop/InventoryManagmentSystem solution/InventoryManagmentSystem/obj/",
+      "projectPath": "/Users/sultana/Downloads/InInventory-Managment-System-Sabrin/InInventory-Managment-System/InventoryManagmentSystem/InventoryManagmentSystem.csproj",
+      "packagesPath": "/Users/sultana/.nuget/packages/",
+      "outputPath": "/Users/sultana/Downloads/InInventory-Managment-System-Sabrin/InInventory-Managment-System/InventoryManagmentSystem/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/sabrinal-saidi/.nuget/NuGet/NuGet.Config"
+        "/Users/sultana/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
